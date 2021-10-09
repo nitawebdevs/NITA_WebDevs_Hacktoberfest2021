@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+/* background-color: #0093E9;
+background-image: linear-gradient(135deg, #0093E9 0%, #80D0C7 100%);
+ */
+.header {
+  height: 100vh;
+  background-color: #08AEEA;
+  background-image: linear-gradient(135deg, #16c1ff 0%, #1bff98 100%);  
+  background-position: top;
+  position: relative;
+}
+
+.header__text-box{
+    position: absolute;
+    top: 10rem;
+    left: 55rem;
+}
+
+.header__heading-main {
+  display: block;
+  font-family: "Lato", sans-serif;
+  font-size: 4rem;
+  letter-spacing: .5rem;
+}
+
+.header__heading-sub{
+    display: block;
+    font-family: "Lato", sans-serif;
+    font-size: 2.5rem;
+    letter-spacing: .25rem;
+    color: rgb(58, 58, 58);
+    font-weight: 400;
+}
+
+.header__logo-box {
+  size: 10% 10%;
+  position: absolute;
+  top: 10rem;
+  left: 20rem;
+}
+
+.header__logo {
+  height: 25rem;
+}
+
+.header__form{
+    position: relative;
+    margin-top: 1.5rem;
+    padding: 3rem 3rem 3rem 3rem;
+    background: rgb(250, 250, 250);
+    border-radius: 1rem;
+}
+
+.btn{
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: .5rem 1rem;
+    display: inline-block;
+    border-radius: 10rem;
+    position: relative;
+    font-size: 1.5rem;
+    left: 10rem;
+    top: 2rem;
+}
