@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(247, 245, 243);
+    /* overflow: hidden;     */
+}
+.navbar-light .navbar-brand {
+    color: rgb(242 234 234 / 90%);
+}
+
+.my-imgk{
+    clip-path: polygon(0% 0%, 0% 100%, 25% 100%, 25% 25%, 75% 25%, 75% 75%, 25% 75%, 25% 100%, 100% 100%, 100% 0%);
+    width: 100%;
+}
+
+.cont{
+    position: relative;
+}
+
+.head-app{
+    position: absolute;
+    position: absolute;
+    top: 5rem;
+    left: 35rem;
+    color: wheat;
+}
+
+.header__form{  
+    position: absolute;
+    top: 23rem;
+    left: 50rem;
+}
+.lg{
+    position: absolute;
+    top: 18rem;
+    left: 26rem;
+}
+input{
+    border-radius: 11px;
+    margin-bottom: 1rem;
+    padding-left: 12px;
+}
+
+.newHead{
+    width: 300px;
+    position: absolute;
+    top: -2rem;
+    left: 27rem;
+    font-size: 34px;
+
+}
+.mah-btn{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            text-align: center;
+            border: 2px solid rgb(255, 232, 28);
+            background-color: rgb(255, 232, 28);
+            color: rgba(0,0, 200, 0.6);
+            box-shadow: 1px 1px 2px rgba(0,0, 200, 0.4);
+            border-radius: 10px;
+            padding: 3px 10px;
+            display: inline-block;
+            cursor: pointer;
+}

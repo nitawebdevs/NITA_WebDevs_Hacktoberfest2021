@@ -1,0 +1,10 @@
+.contain{
+    position: relative;
+}
+
+.material{
+    position: absolute;
+    top: 17rem;
+    left: 28rem;
+    font-size: 55px;
+}
