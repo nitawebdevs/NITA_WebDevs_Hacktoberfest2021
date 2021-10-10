@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu&family=Open+Sans:300,400);
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(45deg, #d81161, #5861da);
+}
+
+nav {
+    height: 4rem;
+    box-shadow: 0px 8px 10px -4px rgba(0, 0, 0, 0.2);
+    background: #f2f2f2;
+}
+
+nav h3 {
+    font-size: 2rem;
+    color: #0984e3;
+    padding: 1rem;
+    margin: 0 5rem;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+section {
+    margin: 3rem 5rem;
+    padding: 2rem;
+    max-width: 35rem;
+    background-color: #fafafa;
+    border-radius: 24px;
+    box-shadow: 0px 8px 10px -4px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #06969f;
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 1.75rem;
+    margin: 0;
+}
+
+p {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+form {
+    margin: 2rem 0;
+    font-family: "Open Sans";
+    font-weight: 600;
+}
+
+.form-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto;
+}
+
+.form-div label {
+    margin-right: auto;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0 0.4rem;
+}
+
+.form-div input {
+    outline: none;
+    border: none;
+    background-color: #f3f3f3;
+    padding: 5px 20px;
+    height: 2rem;
+    max-width: 250px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+#dropdown {
+    width: 56%;
+    height: 2.5rem;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background-color: #f3f3f3;
+}
+
+#dropdown option {
+    padding: 5px 10px;
+}
+
+.form-radio input {
+    width: 15px;
+}
+
+::placeholder {
+    color: #7f8c8d;
+    opacity: 1;
+}
+
+.form-radio {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#submit, #reset {
+    text-transform: uppercase;
+    margin-top: 20px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: #0984e3;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 0.15rem;
+    font-size: 1rem;
+}
+#submit
+{
+    margin-right: 5rem;
+}
+.Obox {
+    padding: 2rem;
+}
+
+.pass {
+    padding: 1rem 0;
+}
