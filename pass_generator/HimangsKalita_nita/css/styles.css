@@ -53,6 +53,7 @@ background-image: linear-gradient(135deg, #0093E9 0%, #80D0C7 100%);
 
 .header__logo {
   height: 25rem;
+  margin-top: 50px;
 }
 
 .header__form{
