@@ -5,11 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utilis.css">
+    <link rel="stylesheet" href="reslt.css">
 </head>
 <body>
+    <div class="contain">
+    <img class="my-imgk" src="/img/06r3O9TGIbCXQhR7C69f1vE-10..1617039239.jpg" alt="Not found">
+    <div class="material">
     <div id="results"></div>
-    <a href="/pass_generator/HimangsKalita_nita/index.html">Back to form</a>
+    <a href="index.html">Back to form</a>
+</div>
+</div>
     <script>
+
         const resultsList = document.getElementById("results")
         new URLSearchParams(window.location.search).forEach((value,name) => {
             resultsList.append(`${name}: ${value}`)
