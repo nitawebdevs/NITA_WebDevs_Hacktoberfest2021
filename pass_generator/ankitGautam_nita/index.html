@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pass Generator App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <section>
+            <div>
+                <h1 id="title">Pass Generator App</h1>
+                <p id="description">Enter Details to Generate your pass</p>
+            </div>
+            <div>
+                <form>
+                    <div class="form-div">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" placeholder="Enter Name" id="na" required>
+                    </div>
+                    <div class="form-div">
+                        <label for="gender">Gender</label>
+                        <div class="form-radio">
+                            <input type="radio" id="male" name="gender" value="male">
+                            <label for="male">Male</label><br>
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label for="female">Female</label><br>
+                            <input type="radio" id="other" name="gender" value="other">
+                            <label for="other">Other</label>
+                        </div>
+                    </div>
+                    <div class="form-div">
+                        <label for="role">Role</label>
+                        <div class="form-radio">
+                            <input type="radio" id="volunteer" name="role" value="volunteer">
+                            <label for="volunteer">Volunteer</label><br>
+                            <input type="radio" id="participant" name="role" value="Participant">
+                            <label for="participant">Participant</label><br>
+                        </div>
+                    </div>
+                    <div class="form-div">
+                        <label for="dropdown" id="trade">Branch</label>
+                        <select id="dropdown" required>
+                            <option value="cse">CSE</option>
+                            <option value="ece">ECE</option>
+                            <option value="ee">EE</option>
+                            <option value="eie">EIE</option>
+                            <option value="me">ME</option>
+                            <option value="ce">CE</option>
+                            <option value="che">CHE</option>
+                            <option value="pe">PE</option>
+                        </select>
+                    </div>
+                    <div class="form-div">
+                        <label for="number">Contact Number</label>
+                        <input type="text" id="no" name="number" placeholder="Enter Number" required>
+                    </div>
+                    <div class="form-div">
+                        <button id="submit">Submit</button>
+                        <button id="reset" type="reset">Reset</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+
+        <div class="id-card">
+            <h1>Your Pass for the HacktoberFest 2021</h1>
+            <div class="id">
+                <div class="details">
+                    <h4>HacktoberFest 2021</h4>
+                    <h3>NIT Agartala</h3>
+                    <div class="role">Participant</div>
+                    <div id="name">Your Name</div>
+                    <div class="sex"><span>Gender</span><span class="bold">Male</span></div>
+                    <div class="branch"><span>Branch</span><span class="bold bdt">Your Branch</span></div>
+                    <div class="contact-no"><span>Contact No.</span><span class="bold cno">XXXXXXXXXX</span></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/d3js/7.0.0/d3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
