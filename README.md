@@ -9,6 +9,15 @@ NIT Agartala is organising a event on Hacktoberfest 2021. We recruited some volu
     ->app heading like "Pass Generator App"\
     ->input elements to take user data\
     ->output a pass ID including data [ heading("Hacktoberfest 2021", "NIT Agartala"), name, gender, branch, contact no ]\
-    ->choose UI of your preferance
+    ->choose UI of your preferance\
+ 
+ ### 2. Stopwatch :- 
+ Design a stopwatch ⏰ which can record and show the time elapsed to the user.\
+ <b>Basic requirements :-</b>\
+    ->app heading "My Stopwatch"\
+    ->a timer clock\
+    ->a button to start the timer\
+    ->a button to stop the timer ans after pressing it record will be shown.\
+    ->choose UI of your preferance\
    
     
