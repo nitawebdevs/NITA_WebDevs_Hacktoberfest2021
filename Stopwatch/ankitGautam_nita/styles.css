@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(90deg, #d81161, #5861da);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.contain {
+    background: white;
+    padding: 3rem;
+    border-radius: 0.5rem;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    box-shadow: 0px 8px 10px -4px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+    padding: 2rem 1rem;
+    color: white;
+    text-shadow: 1px 1px 9px rgba(150, 150, 150, 1);
+    font-size: 3rem;
+    text-align: center;
+}
+
+.clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.clock div {
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.clock div p {
+    font-size: 1rem;
+}
+
+.btn-grp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.btn-grp button {
+    padding: 0.75rem 1.25rem;
+    margin: 0 0.75rem;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#start {
+    background: #4aae71;
+}
+
+#stop {
+    background: #ef6262;
+}
+
+#reset {
+    background: #fbad10;
+}
+i{
+    margin-right: 10px;
+}
+button:hover {
+    opacity: 0.9;
+    color: black;
+    transition: 0.7s;
+    cursor: pointer;
+}
