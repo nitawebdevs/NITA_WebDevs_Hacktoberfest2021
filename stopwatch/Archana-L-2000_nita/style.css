@@ -1,0 +1,75 @@
+body {
+    background:radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 9%, rgba(65,255,140,1) 96%);
+    color: #ffffff;
+  }
+  
+  h1 {
+    font-size: 48px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+  
+    text-align: center;
+    line-height: 59px;
+    margin: 0;
+  }
+  
+  .stopwatch {
+    display: grid;
+    justify-items: center;
+    grid-row-gap: 23px;
+    width: 100%;
+    padding-top: 50px;
+  }
+  
+  .circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #beffd1;
+    margin-top: 100px;
+    box-shadow:0 0 15px green;
+    height: 270px;
+    width: 270px;
+    color:rgb(71, 212, 71);
+    text-shadow: 0 0px 15px rgb(175, 253, 133);
+    border: 3px solid green;
+    /* border-radius: 50%; */
+    border-radius:100% 0% 100% 0% / 100% 100% 100% 0%  ;
+  }
+  
+  .time {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 300;
+    font-size: 48px;
+  }
+  
+  .green {
+    font-weight: 900;
+   
+    color: #ffffff;
+    text-shadow: 0 0 0px rgb(29, 82, 29), 0 0 50px hsl(124, 100%, 50%);
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-between;
+  
+    width: 187px;
+  }
+  
+  button {
+    cursor: pointer;
+    background: transparent;
+    padding: 0;
+    border: none;
+    margin: 0;
+    outline: none;
+  }
+  
+  #playButton {
+    display: block;
+  }
+  
+  #pauseButton {
+    display: none;
+  }
